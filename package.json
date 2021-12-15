@@ -4,7 +4,6 @@
   "description": "HashLips minting dapp is a quick and easy way to connect your smart contract and start minting NFTs.",
   "private": true,
   "dependencies": {
-    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": "^7.16.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
@@ -12,12 +11,12 @@
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1",
-    "web3": "^1.5.1",
+    "web3": "^1.6.0",
     "web3-eth-contract": "^1.5.2"
   },
   "author": "Daniel Eugene Botha (HashLips)",
   "license": "MIT",
-  "homepage": "https://cryptomaker10.github.io/Mint2/",
+ 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
@@ -35,6 +34,8 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "^4.0.3"
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": "^7.16.0",
+    "react-scripts": "^4.0.3",
+    "xxxxx": "^1.0.3"
   }
 }
